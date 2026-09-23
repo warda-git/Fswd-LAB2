@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IEEE Paper Template</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <article class="paper">
+    <header>
+      <h1>A Simple IEEE-Style Research Paper Template Using HTML and CSS</h1>
+      <p class="authors">Warda Aslam</p>
+      <p class="affiliation">Department of Computer Science, Air University, Pakistan</p>
+      <p class="email">warda@example.com</p>
+    </header>
+
+    <section class="abstract">
+      <p><b>Abstract—</b> This document demonstrates a simple IEEE-inspired paper layout using only HTML and CSS. It includes a title section, abstract, keywords, two-column body, headings, table, equation-style content and references.</p>
+      <p><b>Keywords—</b> HTML, CSS, IEEE, Web Development, Research Paper</p>
+    </section>
+
+    <div class="columns">
+      <section>
+        <h2>I. INTRODUCTION</h2>
+        <p>Research papers usually follow a clear structure so that readers can quickly understand the problem, method, results and conclusion. This template recreates that idea for a web page using basic HTML elements and CSS formatting.</p>
+        <p>The main purpose of this task is to practice semantic structure, typography, spacing and multi-column layout without using external libraries.</p>
+
+        <h2>II. PROBLEM STATEMENT</h2>
+        <p>Normal web pages are designed for scrolling, while academic papers are designed for compact reading. Therefore, the layout needs narrow columns, justified text and consistent section headings.</p>
+
+        <h2>III. METHODOLOGY</h2>
+        <p>The template uses a parent container with a fixed maximum width. The main article body uses the CSS <code>column-count</code> property to create two columns.</p>
+
+        <h3>A. Basic Formula</h3>
+        <div class="equation">Performance = Useful Output / Total Input</div>
+
+        <h3>B. Sample Table</h3>
+        <table>
+          <tr><th>Feature</th><th>Used</th></tr>
+          <tr><td>Two Columns</td><td>Yes</td></tr>
+          <tr><td>Justified Text</td><td>Yes</td></tr>
+          <tr><td>References</td><td>Yes</td></tr>
+        </table>
+
+        <h2>IV. RESULTS</h2>
+        <p>The final design visually resembles a compact academic paper and remains easy to understand. No JavaScript is required. The layout also adapts to smaller screens using a media query.</p>
+
+        <h2>V. CONCLUSION</h2>
+        <p>This task shows that HTML and CSS are enough to reproduce common document layouts. The same techniques can be extended for reports, assignments and technical documentation.</p>
+
+        <h2>REFERENCES</h2>
+        <ol class="references">
+          <li>W3C, “HTML Standard,” web technology reference.</li>
+          <li>MDN Web Docs, “CSS Multi-column Layout.”</li>
+          <li>IEEE, “Authoring Tools and Templates.”</li>
+        </ol>
+      </section>
+    </div>
+  </article>
+</body>
+</html>
