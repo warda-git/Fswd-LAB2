@@ -1,0 +1,64 @@
+body{
+  font-family: Arial, sans-serif;
+}
+
+.navbar-brand span,
+.stars{
+  color:#39ff88;
+}
+
+.hero{
+  min-height:88vh;
+  background:linear-gradient(135deg,#eafff1,#ffffff);
+}
+
+.hero-card{
+  background:#212529;
+  color:white;
+  padding:60px 20px;
+  border-radius:30px;
+  box-shadow:0 20px 50px rgba(0,0,0,.15);
+}
+
+.hero-card i{
+  font-size:90px;
+  color:#39ff88;
+}
+
+.product-card{
+  transition:.3s;
+  border-radius:18px;
+  overflow:hidden;
+}
+
+.product-card:hover{
+  transform:translateY(-8px);
+}
+
+.product-icon{
+  height:180px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.product-icon i{
+  font-size:70px;
+  color:#212529;
+}
+
+.card{
+  border-radius:18px;
+}
+
+
+.bg-warning,
+.btn-warning{
+  background-color:#39ff88 ;
+  border-color:#39ff88 ;
+  color:#000 ;
+}
+
+.text-warning{
+  color:#39ff88;
+}
